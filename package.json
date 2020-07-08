@@ -1,0 +1,19 @@
+{
+  "name": "seyijs-crypto",
+  "version": "1.0.0",
+  "description": "A CLI for getting Crytocurrecncies Rate",
+  "main": "server.js",
+  "bin": "./bin/crypto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SEYI-JS",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "commander": "^5.1.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.3.0"
+  }
+}
