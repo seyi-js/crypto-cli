@@ -1,4 +1,4 @@
-## A Cli tool for getting latest crytocurrency prices
+## A Cli tool for getting  crytocurrency prices.
 
 # Installation
 
@@ -7,7 +7,7 @@
 
 # Usage
 
-    Check Cryto Prices
+    Check Crypto Prices
 
     seyijs-crypto check price
 
