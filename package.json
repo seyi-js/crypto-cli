@@ -3,7 +3,9 @@
   "version": "1.0.2",
   "description": "A CLI for getting Crytocurrecncies Rate",
   "main": "server.js",
-  "bin": "./bin/crypto.js",
+  "bin": {
+    "seyijs-crypto": "bin/crypto.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +17,23 @@
     "commander": "^5.1.0",
     "configstore": "^5.0.1",
     "inquirer": "^7.3.0"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seyi-js/crypto-cli.git"
+  },
+  "keywords": [
+    "cryptocurrency"
+  ],
+  "bugs": {
+    "url": "https://github.com/seyi-js/crypto-cli/issues"
+  },
+  "homepage": "https://github.com/seyi-js/crypto-cli#readme"
 }
